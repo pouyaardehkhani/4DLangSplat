@@ -1,0 +1,4 @@
+output/
+data
+*.pyc
+eval/eval_result
