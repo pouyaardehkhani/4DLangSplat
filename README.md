@@ -9,14 +9,11 @@
 This repository contains the official implementation of the paper "4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models" (CVPR 2025).
 ## BibTeX
 ```
-@misc{li20254dlangsplat4dlanguage,
-      title={4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models}, 
-      author={Wanhua Li and Renping Zhou and Jiawei Zhou and Yingwei Song and Johannes Herter and Minghan Qin and Gao Huang and Hanspeter Pfister},
-      year={2025},
-      eprint={2503.10437},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.10437}, 
+@inproceedings{li20254dlangsplat4dlanguage,
+    title={4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models}, 
+    author={Wanhua Li and Renping Zhou and Jiawei Zhou and Yingwei Song and Johannes Herter and Minghan Qin and Gao Huang and Hanspeter Pfister},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year={2025}
 }
 ```
 ## Cloning the Repository
