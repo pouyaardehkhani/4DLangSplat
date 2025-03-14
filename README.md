@@ -1,7 +1,7 @@
 # [CVPR2025] 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models
 [Wanhua Li*](https://li-wanhua.github.io/), [Renping Zhou*](https://github.com/zrporz), [Jiawei Zhou](https://joezhouai.com/), [Yingwei Song](https://github.com/wrencanfly), [Johannes Herter](https://www.linkedin.com/in/johannes-herter-48a549155/), [Minghan Qin](https://github.com/minghanqin), [Gao Huang†](https://www.gaohuang.net/), [Hanspeter Pfister†](https://seas.harvard.edu/person/hanspeter-pfister) \
 (* indicates equal contribution, † means Co-corresponding author) \
-| [Project page](https://4d-langsplat.github.io) | [Full Paper]() | [Video](https://youtu.be/L2OzQ91eRG4) |\
+| [Project page](https://4d-langsplat.github.io) | [Full Paper](https://arxiv.org/abs/2503.10437) | [Video](https://youtu.be/L2OzQ91eRG4) |\
 | Datasets Annotations | [Google Drive](https://drive.google.com/drive/folders/1C-ciHn38vVd47TMkx2-93EUpI0z4ZdZW?usp=sharing) | [BaiduWangpan](https://pan.baidu.com/s/1ZMOk0UFQ39WJ7TtTXy9gkA?pwd=g9rg)\
 | Pretrained Model | [Google Drive](https://drive.google.com/drive/folders/1-G8I5cJCD66fjpvejUzF9QPRJU_GNxj0?usp=sharing) | [BaiduWangpan](https://pan.baidu.com/s/1TmBW1ZjZfjLQTGxpDXZzlg?pwd=3kmw)\
 | Pregenerated Point Clouds by COLMAP | [Google Drive](https://drive.google.com/drive/folders/1_JOObfpXrCq3v_NYKwDt6vRHIbb0oVek?usp=sharing) | [BaiduWangpan](https://pan.baidu.com/s/15jDvS-zSW7pfdvzdwP32mQ?pwd=9y2u)
