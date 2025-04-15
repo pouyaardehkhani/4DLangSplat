@@ -112,12 +112,12 @@ The evaluation results will be saved under `eval/eval_results`.
 
 ## Training Guide
 ### Step 1: Generate Segmentation Map using DEVA
-First Execute the demo script to generate segmentation maps:
+First execute the demo script to generate segmentation maps:
 ```bash
 cd submodules/4d-langsplat-tracking-anything-with-deva
 bash scripts/demo-chickchicken.sh
 ```
-The output segmentation maps will be saved in: `submodules/4d-langsplat-tracking-anything-with-deva/output`
+The output segmentation maps will be saved in `submodules/4d-langsplat-tracking-anything-with-deva/output`
 
 ### Step 2: Extract CLIP and Video Features
 Extract CLIP features:
