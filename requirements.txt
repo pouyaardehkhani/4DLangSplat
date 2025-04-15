@@ -19,3 +19,5 @@ open_clip_torch
 mediapy
 seaborn
 roboflow
+wandb
+ipdb

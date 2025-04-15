@@ -38,6 +38,7 @@ pip install -e submodules/simple-knn
 pip install -e submodules/4d-langsplat-rasterization
 ### submodules for generate segmentation map ###
 pip install -e submodules/4d-langsplat-tracking-anything-with-deva
+pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
 
 ## Prepare Datasets
@@ -109,15 +110,42 @@ bash scripts/eval-neu3d.sh
 
 The evaluation results will be saved under `eval/eval_results`.
 
+## Training Guide
+### Step 1: Generate Segmentation Map using DEVA
+First Execute the demo script to generate segmentation maps:
+```bash
+cd submodules/4d-langsplat-tracking-anything-with-deva
+bash scripts/demo-chickchicken.sh
+```
+The output segmentation maps will be saved in: `submodules/4d-langsplat-tracking-anything-with-deva/output`
 
+### Step 2: Extract CLIP and Video Features
+Extract CLIP features:
+```bash
+bash scripts/extract_clip_features.sh
+```
+Generate video features:
+```bash
+bash scripts/generate-video-feature.sh
+```
+These commands will create two feature directories under your dataset path:
+- `clip_features`: Extracted by CLIP model
+- `video_features`: Extracted by E5 model
+
+### Step 3: Train and Evaluate 4D LangSplat
+Run the training and evaluation script:
+```bash
+bash scripts/train_eval.sh
+```
+This will train the 4D LangSplat field and perform evaluation.
 
 ## TODO list
 - [x] release the code of the 4d-langsplat-rasterization
 - [x] release the code of the 4d-langsplat-tracking-anything-with-deva
 - [x] release the code of the evaluation
 - [x] release the code of the autoencoder
-- [ ] release the code of preprocessing
-- [ ] release the code of training
+- [x] release the code of preprocessing
+- [x] release the code of training
 - [x] release the the pretrained model
 - [ ] release the preprocessed dataset
 - [x] update the arxiv link

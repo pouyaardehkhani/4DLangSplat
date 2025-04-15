@@ -121,7 +121,7 @@ class OptimizationParams(ParamGroup):
         self.zerostamp_init=False
         self.custom_sampler=None
         self.coarse_base_iterations = 3000
-        self.coarse_lang_iterations = 3000
+        self.coarse_lang_iterations = 1000
         self.fine_base_iterations = 10000
         self.fine_lang_iterations = 10000
         self.iterations = self.coarse_base_iterations+self.coarse_lang_iterations+self.fine_base_iterations+self.fine_lang_iterations
