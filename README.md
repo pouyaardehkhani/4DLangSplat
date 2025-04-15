@@ -115,7 +115,7 @@ The evaluation results will be saved under `eval/eval_results`.
 First execute the demo script to generate segmentation maps:
 ```bash
 cd submodules/4d-langsplat-tracking-anything-with-deva
-bash scripts/download_models.sh #  
+bash scripts/download_models.sh # Download the model parameters if you are a first time user 
 bash scripts/demo-chickchicken.sh
 ```
 The output segmentation maps will be saved in `submodules/4d-langsplat-tracking-anything-with-deva/output`
