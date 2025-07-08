@@ -19,7 +19,7 @@ This repository contains the official implementation of the paper "4D LangSplat:
 ## Cloning the Repository
 The repository contains submodules, thus please check it out with
 ```bash
-git clone git@github.com:zrporz/4DLangSplat.git --recursive
+git clone https://github.com/pouyaardehkhani/4DLangSplat.git --recursive
 ```
 
 ## Setup
