@@ -31,9 +31,10 @@ git clone https://github.com/pouyaardehkhani/4DLangSplat.git --recursive
 On default, run the following commands to install the relative packages
 ```bash
 conda create -n 4DLangSplat python=3.10
+# or conda create -n 4dls python=3.10
 conda activate 4DLangSplat
+# or conda activate 4dls
 conda install --channel "nvidia/label/cuda-12.4.0" cuda-toolkit
-pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ### submodules for gaussian rasterization ###
 pip install -e submodules/simple-knn
